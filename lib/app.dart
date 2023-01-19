@@ -51,6 +51,7 @@ class AppState extends State<App> {
           _buildOffstageNavigator(TabItem.red),
           _buildOffstageNavigator(TabItem.green),
           _buildOffstageNavigator(TabItem.blue),
+          _buildOffstageNavigator(TabItem.yellow),
         ]),
         bottomNavigationBar: BottomNavigation(
           currentTab: _currentTab,

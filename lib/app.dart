@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:test_app/bottom_navigation.dart';
-import 'package:test_app/tab_item.dart';
-import 'package:test_app/tab_navigator.dart';
+import 'bottom_navigation.dart';
+import 'tab_item.dart';
+import 'tab_navigator.dart';
 
 class App extends StatefulWidget {
   const App({super.key});
@@ -16,6 +16,7 @@ class AppState extends State<App> {
     TabItem.red: GlobalKey<NavigatorState>(),
     TabItem.green: GlobalKey<NavigatorState>(),
     TabItem.blue: GlobalKey<NavigatorState>(),
+    TabItem.yellow: GlobalKey<NavigatorState>(),
   };
 
   void _selectTab(TabItem tabItem) {

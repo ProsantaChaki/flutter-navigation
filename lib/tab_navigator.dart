@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:test_app/color_detail_page.dart';
-import 'package:test_app/colors_list_page.dart';
-import 'package:test_app/tab_item.dart';
+import 'color_detail_page.dart';
+import 'colors_list_page.dart';
+import 'tab_item.dart';
 
 class TabNavigatorRoutes {
   static const String root = '/';
